@@ -4,6 +4,10 @@
     "slug": "demo",
     "privacy": "public",
     "sdkVersion": "33.0.0",
+    "packagerOpts": {
+      "projectRoots": "",
+      "config": "metro.config.js"
+    },
     "platforms": [
       "ios",
       "android",
