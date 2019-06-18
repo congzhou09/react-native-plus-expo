@@ -6,16 +6,17 @@ module.exports = {
     resolver: {
         blacklistRE: blacklist([
             new RegExp(
-                `^${escapeRegexString(path.resolve(__dirname, '..', 'node_modules'))}\\/.*$`,
+                `^${escapeRegexString(path.resolve(__dirname, '..', 'node_modules'))}\\/.*$`
             ),
         ]),
         providesModuleNodeModules: [
             'react-native',
             'react',
-            'prop-types',
+            'prop-types'
         ],
         extraNodeModules: {
             '@babel/runtime': path.resolve(__dirname, 'node_modules/@babel/runtime'),
+            'react-navigation': path.resolve(__dirname, 'node_modules/react-navigation'),
         },
     },
     projectRoot: path.resolve(__dirname),
