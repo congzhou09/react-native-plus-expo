@@ -17,6 +17,7 @@ module.exports = {
         extraNodeModules: {
             '@babel/runtime': path.resolve(__dirname, 'node_modules/@babel/runtime'),
             'react-navigation': path.resolve(__dirname, 'node_modules/react-navigation'),
+            'react-native-screens': path.resolve(__dirname, 'node_modules/react-native-screens'),
         },
     },
     projectRoot: path.resolve(__dirname),
