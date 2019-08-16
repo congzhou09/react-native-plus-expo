@@ -21,7 +21,7 @@ class HomeScreen extends Component {
     static navigationOptions = ({navigation})=>{
         return {
             title: '首页',
-            headerLeft: (<Button title="打开modal" onPress={()=>{
+            headerRight: (<Button title="打开modal" onPress={()=>{
                 navigation.navigate('Modal');
             }}/>)
         };
